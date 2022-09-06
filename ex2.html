@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" cotent="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Jwon Han</title>
+     <style>
+     ol,ul { list-style-type: square; }
+     body { position:fixed;  width:100%; height: 100%; background: turquoise;}
+    
+     #gnb>li.on>a { background:#111; color:#fff;}
+     #gnb>li:hover>a { background: #ec0d0d; color:#fff;}
+     #gnb ul a { 
+        text-align: center; 
+        text-decoration: none;
+        background:#222; 
+        font: 20px/1.5 arial; 
+        color: rgb(245, 210, 215); 
+     }
+     .vid{
+        float: left;
+     }
+     #gnb ul a:hover { background:#ec0d0d; color:#333; }
+     body{
+            background: url("img/nemo.jpg") repeat; 
+            width: 10px;
+            height: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <figure class="vid">
+		<video  loop="loop" autoplay="autoplay" muted>
+			<source src="img/sample.mp4" type="video/mp4" />
+		</video>
+        <header>		
+            <ul id="gnb">
+                <li class="on">
+                    <a href="#"><em><i class="fa fa-refresh fa-spin"></i>About Ocean</em></a>
+                    <ul>
+                        <li><a href="#"><em><b>English</b></em></a></li>
+                        <li><a href="#"><em><b>Korean</b></em></a></li>				
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><em>Brand Info</em></a>				
+                    <ul>
+                        <li><a href="https://ko.wikipedia.org/wiki/%ED%83%9C%ED%8F%89%EC%96%91"><em>The Pacific Ocean</em></a></li>
+                        <li><a href="https://ko.wikipedia.org/wiki/%EB%8C%80%EC%84%9C%EC%96%91"><em>The Atlantic Ocean</em></a></li>
+                        <li><a href="https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84%EC%96%91"><em>The Inian Ocean</em></a></li>
+                        <li><a href="https://ko.wikipedia.org/wiki/%EB%B6%81%EA%B7%B9%ED%95%B4"><em>The Arctic Ocean</em></a></li>
+                        <li><a href="https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B7%B9%ED%95%B4"><em>The Antarctic Ocean</em></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+	</figure>
+</body>
+</html>
